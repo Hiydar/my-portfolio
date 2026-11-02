@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حيدر عبدالله | مهندس برمجيات</title>
+    
+    <!-- ربط ملف التصميم -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- الخطوط والأيقونات -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">حيدر عبدالله</div>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#skills">المهارات</a>
+            <a href="#projects">المشاريع</a>
+            <a href="#code">الأكواد</a>
+            <a href="#contact">تواصل</a>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h3>مرحباً، أنا</h3>
+            <h1>حيدر عبدالله</h1>
+            <p>مهندس برمجيات ومطور حلول تقنية. أعمل على دمج الذكاء الاصطناعي (AI) في المشاريع، وحل المشاكل التقنية المعقدة، وإغلاق الثغرات. لدي شغف ببناء أنظمة متكاملة وأتمتة العمليات.</p>
+            
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">تواصل معي</a>
+                <!-- زر تحميل السيرة الذاتية (يجب رفع ملف cv.pdf) -->
+                <a href="cv.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> تحميل السيرة الذاتية</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- الصورة الشخصية -->
+            <img src="profile.jpg" alt="حيدر عبدالله">
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section class="section" id="skills">
+        <h2 class="section-title">مجالات <span>الخبرة</span></h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-code"></i>
+                <h3>تطوير البرمجيات</h3>
+                <p>بناء وإدارة المشاريع البرمجية، وتطوير حلول ويب متكاملة باستخدام (Python, HTML, JS).</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-robot"></i>
+                <h3>دمج الذكاء الاصطناعي</h3>
+                <p>تطبيق نماذج الذكاء الاصطناعي في المشاريع، وأتمتة المهام لزيادة الكفاءة.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>حل المشاكل والأمن</h3>
+                <p>تحليل الأنظمة، حل المشاكل التقنية المعقدة، وإغلاق الثغرات البرمجية.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-microchip"></i>
+                <h3>إنترنت الأشياء (IoT)</h3>
+                <p>ربط الأجهزة الحساسة (مثل ESP32) بالأنظمة لبناء أنظمة مراقبة ذكية.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- معرض المشاريع -->
+    <section class="section" id="projects">
+        <h2 class="section-title">أحدث <span>المشاريع</span></h2>
+        <div class="grid">
+            <!-- المشروع الأول -->
+            <div class="project-card">
+                <div class="project-img">
+                    <!-- استبدلنا الأيقونة بصورة حقيقية للمشروع -->
+                    <img src="project1.jpg" alt="مشروع مطحنة الذهب" onerror="this.style.display='none'">
+                    <i class="fas fa-gem placeholder-icon"></i> <!-- تظهر فقط إذا لم توجد الصورة -->
+                </div>
+                <div class="project-info">
+                    <h3>مطحنة الذهب الذكية</h3>
+                    <p>نظام مؤقت ذكي يعمل بدون إنترنت (PWA) لإدارة أوقات طحن الحجر، مع إشعارات صوتية واهتزاز.</p>
+                    <div class="tags">
+                        <span class="tag">HTML/CSS/JS</span>
+                        <span class="tag">IoT Ready</span>
+                    </div> 
+                  </div>
+            </div>
+            <!-- المشروع الثاني -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project2.jpg" alt="مشروع البايثون" onerror="this.style.display='none'">
+                    <i class="fas fa-brain placeholder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>نظام مراقبة بالذكاء الاصطناعي</h3>
+                    <p>لوحة تحكم بلغة بايثون (Streamlit) تستقبل بيانات من حساسات ESP32 لمراقبة الماكينات عن بُعد.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">MQTT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- خانة عرض الأكواد -->
+    <section class="section" id="code">
+        <h2 class="section-title">مقتطفات <span>برمجية</span></h2>
+        <div class="code-box">
+            <div class="code-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+                <span style="color: #8b949e; font-size: 0.8rem; margin-left: 10px; font-family: monospace;">python_app.py</span>
+            </div>
+            <div class="code-content">
+<span class="keyword">import</span> streamlit <span class="keyword">as</span> st
+<span class="keyword">import</span> paho.mqtt.client <span class="keyword">as</span> mqtt
+
+<span class="keyword">def</span> <span class="function">on_message</span>(client, userdata, msg):
+    status = msg.payload.decode(<span class="string">"utf-8"</span>)
+    <span class="keyword">if</span> status == <span class="string">"ON"</span>:
+        st.success(<span class="string">"المطحنة تعمل الآن! 🟢"</span>)
+            </div>
+        </div>
+        
+        <!-- نصيحة: رابط لملف الكود كاملاً على GitHub Gist -->
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="https://gist.github.com/" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> عرض الكود كاملاً على GitHub</a>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section class="contact" id="contact">
+        <h2>لنتحدث عن مشروعك القادم</h2>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">أنا متاح دائماً للتواصل والفرص التقنية الجديدة.</p>
+        
+        <div class="social-links">
+            <a href="https://wa.me/249913791111" target="_blank" title="واتساب"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/help/linkedin/" target="_blank" title="لينكد إن"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://t.me/Hiyd63" target="_blank" title="تليغرام"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://github.com/Hiydar" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:wwwhiydar63@gmail.com" title="البريد الإلكتروني"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 حيدر عبدالله. جميع الحقوق محفوظة.
+    </footer>
+
+    <!-- ربط ملف الجافاسكريبت -->
+    <script src="script.js"></script>
+</body>
+</html>
