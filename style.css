@@ -6,7 +6,7 @@
     --text-muted: #94a3b8;
     --code-bg: #0d1117;
 }
-
+ 
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Tajawal', sans-serif; }
 body { 
     /* خلفية سينمائية داكنة مع طبقة تعتيم لضمان قراءة النص */
