@@ -8,7 +8,14 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Tajawal', sans-serif; }
-body { background-color: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+body { 
+    /* خلفية سينمائية داكنة مع طبقة تعتيم لضمان قراءة النص */
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1522383225653-ed111181a951?q=80&w=1920&auto=format&fit=crop') no-repeat center center fixed; 
+    background-size: cover;
+    color: var(--text); 
+    line-height: 1.6; 
+    overflow-x: hidden; 
+}
 
 /* القائمة */
 header { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background-color: rgba(15, 23, 42, 0.95); position: fixed; width: 100%; top: 0; z-index: 100; backdrop-filter: blur(10px); }
