@@ -93,7 +93,7 @@ footer { text-align: center; padding: 20px; color: var(--text-muted); font-size:
     .hero-text h1 { font-size: 2.5rem; }
     .hero-buttons { justify-content: center; }
     .hero-image img { width: 250px; height: 250px; }
-    nav { display: none; }
+
 }
 /* ==========================================
    تنسيق زر تغيير اللغة
